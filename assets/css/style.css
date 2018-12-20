@@ -1,0 +1,22 @@
+body {
+    background-color: blue;
+}
+
+.question-box {
+    background-color: blueviolet;
+    padding: 50px 0px 450px 0px;
+    margin: 25px 150px;
+}
+
+#start {
+    padding: 15px 30px;
+    margin: 250px 0px 0px 575px;
+    background-color: aquamarine;
+}
+
+h1 {
+    font-size: 75px;
+    font-weight: 200px;
+    margin: 5px 0px 0px 275px;
+    color: yellow;
+}
