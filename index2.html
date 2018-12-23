@@ -4,26 +4,45 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>X-Mas Trivia</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+
     <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
     
 </head>
 <body>
 
-        <div id="show-number"> </div>
+        <section class="question-box">
+        <h1>NBA Christmas Trivia!</h1>
+        <br><br><br><br><br>
+        <row>
+        <div id="show-number"></div>
+        </row>
 
+        <row>
         <div id="question"> </div>
+        </row>
 
+        <section id="answer-choices">
         <div class="answer" id="choice-1"> </div>
         <div class="answer" id="choice-2"> </div>
         <div class="answer" id="choice-3"> </div>
         <div class="answer" id="choice-4"> </div>
-
+        </section>
+        </section>
 
 
     <!-- jQuery -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     
     <!-- Script -->
-    <script src="assets/javascript/app.js"> </script>
+    <script src="In-Class/Trying-Hard/Trivia-game-2.0"> </script>
 </body>
 </html>
+
+<!-- Do I need to just change id=choice-1 to answer -->
+<!-- Then change the choice-2 to the picture -->
+<!-- Then hide id-choice3 and id-choice4? -->
+<!-- Radio buttons -->
+<!-- transform the divs to change the questions then use SetTimeout to
+flash the response to the answer for 5 seconds -->
